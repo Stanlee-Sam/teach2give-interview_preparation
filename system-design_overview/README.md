@@ -2,8 +2,8 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Understanding System Design](#understanding-system-design)
-  - [What is the need for the System Design?](#what-is-the-need-for-the-system-design)
-  - [Exploring Essential Design Methods in System Design](#exploring-essential-design-methods-in-system-design)
+    - [What is the need for the System Design?](#what-is-the-need-for-the-system-design)
+    - [Exploring Essential Design Methods in System Design](#exploring-essential-design-methods-in-system-design)
   - [Diving Deeper into System Design Concepts](#diving-deeper-into-system-design-concepts)
     - [1. Performance vs Scalability](#1-performance-vs-scalability)
     - [2. Latency vs Throughput](#2-latency-vs-throughput)
@@ -114,6 +114,7 @@ Caching involves storing copies of files or data in a temporary storage location
 
 #### 4. Proxies
 
+![proxies](./assets/assets.webp)
 Proxies, or proxy servers, act as intermediaries between a client and the internet. When a user requests data from the internet, the proxy server handles the request and returns the data to the user. Proxies can provide benefits such as improved security, load balancing, and caching. Using a VPN (Virtual Private Network) involves changing the proxy server, allowing access to content that might be blocked by the user's primary proxy server.
 
 ### Components of System Design
